@@ -20,7 +20,7 @@
 
 </div>
 
----
+
 
 ## Project Overview
 
@@ -44,7 +44,7 @@ The project also includes a Chunking Lab for comparing fixed-size and structure-
 - Chunking strategy comparison
 - React frontend and FastAPI backend
 
----
+
 
 ## System Architecture
 
@@ -81,7 +81,7 @@ flowchart TD
     R --> S["Inspect and Compare Chunks"]
 ```
 
----
+
 
 ## RAG Workflow
 
@@ -117,7 +117,7 @@ flowchart LR
 7. Relevant document chunks are retrieved.
 8. The LLM generates an answer using retrieved context.
 
----
+
 
 ## Chunking Strategies
 
@@ -200,7 +200,7 @@ Chunk 4: MNO
 
 Overlap can improve continuity but may increase storage requirements and retrieval redundancy.
 
----
+
 
 ## Chunking Lab
 
@@ -251,7 +251,7 @@ flowchart TD
 
 These configurations are suggested for experimentation and do not represent measured results.
 
----
+
 
 ## Chunking Strategy Comparison
 
@@ -265,7 +265,7 @@ These configurations are suggested for experimentation and do not represent meas
 | Complexity | Low | Moderate |
 | Context Preservation | Depends on overlap | Depends on structure and overlap |
 
----
+
 
 ## Technology Stack
 
@@ -280,7 +280,7 @@ These configurations are suggested for experimentation and do not represent meas
 | Retrieval | Vector Similarity Search |
 | Chunking | Fixed-Size and Structure-Aware |
 
----
+
 
 ## Project Structure
 
@@ -311,7 +311,7 @@ MediRAG_AI_v2/
 |-- README.md
 ```
 
----
+
 
 ## Installation and Setup
 
@@ -400,7 +400,7 @@ python -m pytest tests/test_chunking.py
 
 The tests cover chunking behavior, overlap handling, and configuration validation.
 
----
+
 
 ## Learning Outcomes
 
@@ -416,7 +416,7 @@ This project demonstrates experience in:
 - React frontend development
 - Full-stack AI application architecture
 
----
+
 
 ## Future Enhancements
 
@@ -429,7 +429,7 @@ This project demonstrates experience in:
 - Advanced medical terminology processing
 - Support for additional document formats
 
----
+
 
 ## Security and Privacy
 
